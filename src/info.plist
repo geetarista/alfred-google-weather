@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string># Set your location with city and state or just zip code
+LOCATION='Palo Alto, CA'
+
+# Set the language
+# List of codes:
+# http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+LANGUAGE='en'
+
+# Set the unit as 'f' or 'c'
+UNIT='f'
+
+./weather.rb "$LOCATION" "$LANGUAGE" "$UNIT"</string>
+	<key>disabled</key>
+	<false/>
+	<key>escapequery</key>
+	<true/>
+	<key>escapequerybackquotes</key>
+	<true/>
+	<key>escapequerybrackets</key>
+	<false/>
+	<key>escapequeryquotes</key>
+	<false/>
+	<key>escapequerysemicolons</key>
+	<false/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>weather</string>
+	<key>logging</key>
+	<true/>
+	<key>parameter</key>
+	<integer>0</integer>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Local weather from Google</string>
+	<key>title</key>
+	<string>Google Weather</string>
+</dict>
+</plist>
