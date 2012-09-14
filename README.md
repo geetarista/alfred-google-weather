@@ -2,6 +2,8 @@
 
 Use Alfred and Google Weather for local weather.
 
+**NOTE:** This plugin no longer works and is not maintained since Google killed access to this API.
+
 ## Download/Install
 
 Just [download the extension](https://github.com/downloads/geetarista/alfred-google-weather/weather.alfredextension) and double click to install.
